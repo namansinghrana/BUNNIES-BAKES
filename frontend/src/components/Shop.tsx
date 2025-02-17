@@ -27,11 +27,11 @@ const Shop = () => {
   const [sortOrder, setSortOrder] = useState<string>("asc");
 
   useEffect(() => {
-    fetch("http://bunniesbakes-backend.up.railway.app/api/products")
+    fetch("https://bunniesbakes-backend.up.railway.app/api/products")
     .then(response => response.json())
     .then(data => setProducts(data));
 
-    fetch("http://bunniesbakes-backend.up.railway.app/api/categories")
+    fetch("https://bunniesbakes-backend.up.railway.app/api/categories")
     .then(response => response.json())
     .then(data => setCategories(data));
   }, [] );
