@@ -78,7 +78,7 @@ const Shop = () => {
         <div className='col-md-5 col-sm-12 mb-2'>
           <input
           type='text'
-          className='form-control'
+          className='form-control -mt-[2.rem]'
           placeholder='Search for products'
           onChange={handleSearchChange}/>
         </div>
