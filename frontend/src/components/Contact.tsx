@@ -32,14 +32,15 @@ const Contact = () => {
             {/* Contact Box */}
             <motion.div className="relative mt-20 sm:h-[10rem] sm:w-[5rem]  md:h-[32rem] md:w-[23rem] lg:w-[28rem] bg-white shadow-lg rounded-lg">
               <motion.div className="flex flex-col items-center text-base text-black font-crimson px-6 py-10">
-                <h2 className="mb-6 text-2xl font-black">CONTACT US</h2>
-                <p className="text-black text-[0.85rem] text-center">
+                <h2 className="mb-2 text-2xl font-black mt-[2.8rem]">CONTACT US</h2>
+                <p className="text-black font-[20px] text-center mb-5">
                   Don't cry over someone eating your snacks—we're here to help!
                   Get in touch with us for order questions or general feedback.
                   We're hungry for all of your thoughts!
                 </p>
-                <h3 className="font-semibold mt-4">hello@BUNNYBAKES.com</h3>
-                <motion.img src={Logo} className="mt-10 w-40" />
+                <h5 className="font-semibold">hello@BUNNYBAKES.com</h5>
+                <p>Hop into happiness with every bite!</p>
+                <motion.img src={Logo} className="mt-[4rem] w-40" />
               </motion.div>
 
             {/* Extra Chips */}
@@ -56,7 +57,7 @@ const Contact = () => {
                 alt="Packet"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0, transition: { duration: 0.2 } }}
-                className="absolute -bottom-26 lg:-left-[5rem] md:-left-[5rem] w-[16rem]"
+                className="absolute -bottom-20 lg:-left-[5rem] md:-left-[5rem] w-[16rem]"
               />
               <motion.img
                 src={Bunny}
