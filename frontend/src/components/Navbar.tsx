@@ -10,19 +10,19 @@ export default function Navbar() {
     </div>
     <div className='border border-0.5 border-slate-200 mb-2'></div>
     <nav className="w-full  pt-2 bg-white/80 backdrop-blur-sm h-12 font-crimson">
-      <div className="container mx-auto flex justify-center">  
+      <div className="container mx-auto flex justify-center">
         <ul className="flex justify-items-center space-x-28 text-base  font-crimson font-extrabold">
           <li className="hover:text-pink-600  transition-colors">
-            <Link to='/'>HOME</Link>
+            <Link className="nav-link text-black" to='/'>HOME</Link>
             </li>
           <li className="hover:text-pink-600 transition-colors">
-            <Link to='/shop'>  SHOP </Link>          
+            <Link className="nav-link text-black" to='/shop'>  SHOP </Link>
             </li>
           <li className="hover:text-pink-600 transition-colors">
-            <Link to='/ourstory'>OUR STORY</Link>          
+            <Link className="nav-link text-black" to='/ourstory'>OUR STORY</Link>
         </li>
-          <li className="hover:text-pink-600 transition-colors">
-            <Link to='/contact'>CONTACT</Link>
+          <li className="hover:text-pink-600  transition-colors">
+            <Link className="nav-link text-black" to='/contact'>CONTACT</Link>
           </li>
         </ul>
       </div>

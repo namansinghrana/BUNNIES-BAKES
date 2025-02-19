@@ -33,7 +33,7 @@ const OurStory = () => {
           exit="exit"
         >
           {/* White Card */}
-          <motion.div className="mt-20 md:min-h-[38rem] lg:h-[35rem] md:w-[32rem] bg-white relative">
+          <motion.div className="mt-20 sm:h-[40rem] md:h-[40rem] lg:min-h-[30rem] md:w-[32rem] bg-white relative">
             {/* Floating Profile Images */}
             <motion.div className="relative">
               <motion.div className="absolute h-24 w-24 top-36 -left-20 rounded-full">
@@ -78,7 +78,7 @@ const OurStory = () => {
             <motion.img
               src={Chip}
               alt="Packet"
-              className="absolute md:top-[30rem] left-[-6rem] w-[19rem]"
+              className="absolute md:top-[32rem] lg:top-[32rem] md:left-[-6rem] lg:left-[-6rem] w-[19rem]"
               variants={leftchipVariants}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0, transition: { duration: 0.2 } }}
@@ -90,7 +90,7 @@ const OurStory = () => {
           <motion.img
             src={Chip}
             alt="Packet"
-            className="absolute top-3 rotate-[180deg] left-[53%] w-[18rem]"
+            className="absolute md:-top-2 lg:-top-3 rotate-[180deg] md:left-[58%] lg:left-[55%] w-[18rem]"
             variants={rightchipVariants}
             initial={{ rotate: 180, opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0, transition: { duration: 0.2 } }}
