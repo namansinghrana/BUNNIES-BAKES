@@ -23,10 +23,9 @@ const Contact = () => {
           >
             {/* Animated Bunny Images */}
             <motion.div className="relative w-full">
-              
               <motion.img
                 src={Bunny}
-                className="absolute sm:h-[13rem] sm:w-[13rem] lg:h-64 lg:w-64 top-24 left-[0rem] lg:left-[6.5rem] md:left-[-0.2rem] translate-y-10"
+                className="absolute sm:h-[13rem] sm:w-[13rem] lg:h-64 lg:w-64 top-24 left-[0rem] lg:left-[14rem] md:left-[-0.2rem] translate-y-10"
               />
             </motion.div>
 
