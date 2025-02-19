@@ -32,12 +32,12 @@ const Products = () => {
     
       {/* Featured Products */}
       <section className="bg-gradient-to-b from-[#E171C4] via-[#E171C4]  to-[#e7c58d] min-h-screen">
-        <div className="flex justify-between items-center mb-14">
+        <div className="flex flex-row justify-between items-center mb-12">
           <h2 className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-3xl sm:text-5xl mt-20 font-semibold mb-2 text-black">
             Our Best Sellers
           </h2>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="ml-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-">
           {featuredProducts.map((product) => (
             <ProductCard key={product.id} {...product} />
           ))}
