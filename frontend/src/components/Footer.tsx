@@ -13,24 +13,24 @@ const Footer = () => {
 
               
               <img className='w-96 mb-4' src={Logo} alt='Logo'/>
-              <div className="flex flex-wrap gap-2.5 text-xs mb-14">
-                <a href="#" className="hover:text-primary-300">Terms of Use</a>
+              <div className="flex flex-wrap gap-2.5 text-xs mb-20 pr-8">
+                <a href="#" className="hover:text-primary-300 text-white">Terms of Use</a>
                 <span>•</span>
-                <a href="#" className="hover:text-primary-300">Privacy Policy</a>
+                <a href="#" className="hover:text-primary-300 text-white">Privacy Policy</a>
                 <span>•</span>
-                <a href="#" className="hover:text-primary-300">Accessibility Policy</a>
+                <a href="#" className="hover:text-primary-300 text-white">Accessibility Policy</a>
                 <span>•</span>
-                <a href="#" className="hover:text-primary-300">FAQ</a>
+                <a href="#" className="hover:text-primary-300 text-white">FAQ</a>
                 <span>•</span>
-                <a href="#" className="hover:text-primary-300">Become an Affiliate</a>
+                <a href="#" className="hover:text-primary-300 text-white">Become an Affiliate</a>
                 <span>•</span>
-                <a href="#" className="hover:text-primary-300">Reviews</a>
+                <a href="#" className="hover:text-primary-300 text-white">Reviews</a>
                 <span>•</span>
-                <a href="#" className="hover:text-primary-300">Jobs</a>
+                <a href="#" className="hover:text-primary-300 text-white">Jobs</a>
                 <span>•</span>
-                <a href="#" className="hover:text-primary-300">Track Orders</a>
+                <a href="#" className="hover:text-primary-300 text-white">Track Orders</a>
                 <span>•</span>
-                <a href="#" className="hover:text-primary-300">Store Locator</a>
+                <a href="#" className="hover:text-primary-300 text-white">Store Locator</a>
               </div>
               <div className="flex items-center gap-6">
                 <div className='w-40'>
@@ -38,14 +38,14 @@ const Footer = () => {
                 hover:text-black transition-colors">
                   <h2 className='w-max '>CONTACT US</h2>
                 </button></div>
-                <div className="flex gap-4 ml-20">
-                  <a href="#" className="hover:text-primary-300">
+                <div className="flex gap-4 ml-[8rem]">
+                  <a href="#" className="hover:text-primary-300 text-white">
                     <Instagram className="h-6 w-6"/>
                   </a>
-                  <a href="#" className="hover:text-primary-300">
+                  <a href="#" className="hover:text-primary-300 text-white">
                     <Facebook className="h-6 w-6" />
                   </a>
-                  <a href="#" className="hover:text-primary-300">
+                  <a href="#" className="hover:text-primary-300 text-white">
                     <Twitter className="h-6 w-6" />
                   </a>
                 </div>
@@ -57,9 +57,9 @@ const Footer = () => {
                 <input
                   type="email"
                   placeholder="Your email"
-                  className="flex-1 bg-transparent border-4 border-white rounded-full px-8 py-3 text-lg font-bold focus:outline-none focus:border-primary-300"
+                  className="flex-1 bg-transparent border-1 border-white rounded-full px-8 py-3 text-lg font-bold focus:outline-none focus:border-primary-300"
                 />
-                <button className=" border-4 border-white rounded-full px-8 py-3 text-lg font-bold hover:bg-white hover:text-black hover:border-black">
+                <button className=" border-1 border-white rounded-full px-8 py-3 text-lg font-bold hover:bg-white hover:text-black hover:border-black">
                   SUBSCRIBE
                 </button>
               </div>
