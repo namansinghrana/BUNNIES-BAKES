@@ -35,13 +35,13 @@ const Hero = () => {
       exit="exit">
             <motion.div className='relative lg:w-full lg:h-screen'>
             <motion.div 
-              className='absolute lg:top-[10rem] top-12 left-12 lg:left-[34.5rem] -translate-x-1/2 -translate-y-1/2 z-10'
+              className='absolute lg:top-[7rem] top-[1.4rem] left-36 lg:left-[33.7rem] -translate-x-1/2 -translate-y-1/2 z-2'
               variants={pageVariants}
               initial={{ opacity: 0, y: 3 }}
               animate={{ opacity: 0, y: 0, transition: {delay: 0.2 } }}>
               <motion.div 
-              className='text-white lg:text-[3.48rem] md:text-[3.44rem]  font-crimson mx-4 w-max'>INSPIRING MINDFUL</motion.div>
-              <motion.div className='text-white lg:text-7xl font-crimson lg:w-[565px] pl-5 lg:ml-2 ml-6 tracking-wider '>S N A C K I N G</motion.div>
+              className='text-white lg:text-[3.1rem] md:text-[2.8rem] md:pl-14 lg:pl-15  font-crimson mx-4 w-max'>INSPIRING MINDFUL</motion.div>
+              <motion.div className='text-white lg:text-7xl md:text-6xl font-crimson lg:w-[565px] md:pl-12 lg:ml-9 md:ml-14'>S N A C K I N G</motion.div>
               </motion.div>
               <motion.div className='flex flex-row items-start justify-center mr-32'>
             <motion.img 
@@ -51,17 +51,17 @@ const Hero = () => {
               exit='exit'
               src={Chip2}
               alt="Packet" 
-              className="absolute top-40 lg:-left-[38rem] -rotate-[6deg] z-0 -translate-x-[24rem] -translate-y-24 w-[74%]"/>
+              className="absolute top-40 lg:-left-[38rem] md:-left-[26rem] -rotate-[6deg] z-0 -translate-x-[24rem] -translate-y-24 w-[74%]"/>
             <motion.img 
             src={Packet} 
             alt="Packet"
-            className='lg:w-[70rem] w-[42rem] lg:h-auto lg:left-[72rem] lg:mt-5 mt-10 z-10'
+            className='lg:w-[76rem] md:w-[46rem] lg:h-auto lg:left-[72rem] md:left-[72rem] lg:mt-5 -mt-5 z-10'
             variants={pageVariants} />
             
             <motion.img 
             src={Chip} 
             alt="Packet" 
-            className="absolute left-52 lg:-top-[12rem] lg:left-[77rem] rotate-[33deg] translate-x-96 -translate-y-24 z-0 md:w-[70%]"
+            className="absolute left-52 lg:-top-[12rem] lg:left-[77rem] md:-top-[8rem] md:left-[44rem] rotate-[33deg] translate-x-96 -translate-y-24 z-0 md:w-[70%]"
             variants={pageVariants}
             initial="initial"
             animate="animate"
