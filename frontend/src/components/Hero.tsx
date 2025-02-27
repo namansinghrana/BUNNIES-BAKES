@@ -7,9 +7,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 
 // import { useState, useEffect } from "react"
 
-
 const Hero = () => {
-
   const pageVariants = {
     initial: { opacity: 0, x: 50 }, // Start slightly offscreen and invisible
     animate: { opacity: 1, x: 0, transition: { duration: 0.2, ease: "easeInOut" } }, // Smooth fade-in with delay
@@ -21,7 +19,6 @@ const Hero = () => {
     animate: { opacity: 1, x: 0, transition: { duration: 0.2, ease: "easeInOut" } }, 
     exit: { x: -2000 ,y:-100, opacity: 1, transition: { duration: 1.2, ease: "easeInOut" } }
   };
-  
 
   return (
     <>
@@ -75,6 +72,9 @@ const Hero = () => {
 
     
       {/* Extra Hero Section */}
+      <div className="hero-pattern pt-24"></div>
+    
+      {/* Extra Hero Section */}
       <div className="hero-pattern pt-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="text-center">
@@ -92,7 +92,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <Products/>      
+      <Products/>
       </AnimatePresence>
     </>
   )

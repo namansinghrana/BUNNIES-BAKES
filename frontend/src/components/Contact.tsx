@@ -21,14 +21,6 @@ const Contact = () => {
             animate="animate"
             exit="exit"
           >
-            {/* Animated Bunny Images */}
-            <motion.div className="relative w-full">
-              <motion.img
-                src={Bunny}
-                className="absolute sm:h-[13rem] sm:w-[13rem] lg:h-64 lg:w-64 top-24 left-[0rem] lg:left-[14rem] md:left-[-0.2rem] translate-y-10"
-              />
-            </motion.div>
-
             {/* Contact Box */}
             <motion.div className="relative mt-20 sm:h-[10rem] sm:w-[5rem]  md:h-[32rem] md:w-[23rem] lg:w-[28rem] bg-white shadow-lg rounded-lg">
               <motion.div className="flex flex-col items-center text-base text-black font-crimson px-6 py-10">
@@ -58,10 +50,6 @@ const Contact = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0, transition: { duration: 0.2 } }}
                 className="absolute -bottom-20 lg:-left-[5rem] md:-left-[5rem] w-[16rem]"
-              />
-              <motion.img
-                src={Bunny}
-                className="absolute sm:h-[13rem] sm:w-[13rem] md:h-[13rem] md:w-[13rem] lg:h-64 lg:w-64 top-[18rem] left-[50%] translate-x-[20%] md:left-[20.2rem] lg:left-[32rem]"
               />
             </motion.div>
           </motion.div>

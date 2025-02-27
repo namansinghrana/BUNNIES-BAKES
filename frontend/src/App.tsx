@@ -6,6 +6,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Shop from './components/Shop';
 
+
 function App() {
   return (
     <>
@@ -31,7 +32,6 @@ function App() {
     </div>
     </div>
     </section> */}
-    
     <Footer/>
    </div>
    </>

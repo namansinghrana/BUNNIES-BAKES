@@ -29,8 +29,8 @@ const featuredProducts = [
 const Products = () => {
   return (
     <>
-    
       {/* Featured Products */}
+
       <section className="bg-gradient-to-b from-[#E171C4] via-[#E171C4]  to-[#e7c58d] min-h-screen">
         <div className="flex flex-row justify-between items-center mb-12">
           <h2 className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-3xl sm:text-5xl mt-20 font-semibold mb-2 text-black">
@@ -43,7 +43,7 @@ const Products = () => {
           ))}
         </div>
       </section>
-{/*       
+      {/*
       <div className='relative h-0 flex  justify-between items-center'>
           <img src={Chip} alt="Packet" className="absolute -top-20 -left-32 rotate-[90deg] w-[40%]"/>
           <img src={Chip} alt="Packet" className="absolute -top-20  rotate-[90deg] left-96 translate-x-[37rem] w-[40%]"/>
